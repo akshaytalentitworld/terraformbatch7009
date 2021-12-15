@@ -6,6 +6,7 @@ resource "aws_subnet" "ProductSubnetPrivate"{
 	    Env  = var.env
 	    ManagedBy = "Terraform"
 	    Product_cat = "Shopping"
+	    BatchNO   = "7009"
 	}
 	availability_zone = "us-east-2b"
 }
