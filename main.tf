@@ -1,5 +1,5 @@
 resource "aws_subnet" "ProductSubnetPrivate"{
-	vpc_id = data.terraform_remote_state.network.outputs.vpc_id
+	vpc_id = "vpc-01984fa4eb6dde5fd"
 	cidr_block = var.private_subnet_cidr
 	tags = {
 	    Name = var.product_name,
